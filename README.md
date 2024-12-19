@@ -1,5 +1,3 @@
-![Quantum800wirelessHeadphonesGIF](https://github.com/user-attachments/assets/e6d9311e-05de-4071-937d-d443ce180f6f)
-
 
 # 🎧 JBL Clone Website
 This project contains a JBL Clone Website interface built using HTML5 and SCSS. 

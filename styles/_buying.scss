@@ -1,0 +1,27 @@
+@import "./variables";
+
+.buying{
+    cursor: pointer;
+    &-h2{
+        align-items: center;
+        left: 50px;
+        display: flex;
+        color: $white-color;
+        font-weight: $font-semi-bold
+    }
+    &-offer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 10px;
+        color: $text-color;
+        padding-block: 20px; 
+    }
+    &-link{
+        color: $text-color;
+        &:hover{
+            color: $first-color;
+        } 
+    }
+}

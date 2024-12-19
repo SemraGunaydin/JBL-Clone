@@ -1,0 +1,63 @@
+@import "./variables";
+
+
+header{
+    width: 100%;
+    padding: 5px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    // z-index basklik kisimlari biz sayfaya asagi dorgu kaydirdikca beraberinde gelmesi icin kullanilir excel de ki freeze row panes gibi olur
+    background: transparent;
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: $header-height;
+        
+        // logo
+        &-logo{
+            color: $first-color;
+            font-size: $h2-font-size;
+            font-weight: $font-semi-bold;
+        }
+        // list
+        &-list{
+           display: flex;
+           column-gap: 55px;
+         
+        }
+        
+        //link
+        &-link{
+            color: $white-color;
+            font-weight: $font-medium;
+            transition: all 0.4s;
+           &:hover {
+            color: $first-color;
+           }
+
+        }
+    }
+}
+
+.blur-header:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(23, 12%, 4%, 0.2);
+    backdrop-filter: blur(32px);
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+@media(max-width:850px){
+    header .nav-list{
+        display: none;
+
+    }
+}

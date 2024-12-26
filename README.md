@@ -33,5 +33,5 @@ Special thanks to JBL for providing an inspiring layout to replicate. This proje
 
  # 📧 Contact
 
-gunaydinsemra34@gmail.com
+semra.gunaydinwork@outlook.com
 
